@@ -1,0 +1,276 @@
+.t {
+    margin-top: 80px;
+    height: 300vh;
+    width: 100%;
+    position: relative;
+}
+
+.t-top {
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    position:relative;
+    text-align:center;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.t-tour-bottom {
+    height: 85vh;
+    display: flex;
+}
+
+.t-bottom-left {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-card.bg {
+    position: absolute;
+    top: 40vh;
+    width: 40vh;
+    left: 0%;
+    background-image: url("../../img/bg2.png");
+}
+
+.t-card {
+    top: 38vh;
+    height: 50vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.t-card.bg-2 {
+    position: absolute;
+    top: 136vh;
+    width: 40vh;
+    left: 0%;
+    background-image: url("../../img/bg2.png");
+}
+
+.t-card.bg-3 {
+    position: absolute;
+    top: 230vh;
+    width: 40vh;
+    left: 0%;
+    background-image: url("../../img/bg2.png");
+}
+
+.t-card-2 {
+    top: 134vh;
+    height: 50vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.t-card-3 {
+    top: 228vh;
+    height: 50vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.t-card-right {
+    height: 30vh;
+    position: relative;
+}
+
+.t-card-title {
+    top: 22vh;
+    height: 10vh;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.t-card-title-2 {
+    top: 117vh;
+    height: 10vh;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.t-card-title-3 {
+    top: 211vh;
+    height: 10vh;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.t-img-title {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.t-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.t-bottom-right {
+    margin-top: 10vh;
+    flex: 1;
+    padding: 15px;
+}
+
+.t-bottom-right-2 {
+    margin-top: 20vh;
+    flex: 1;
+    padding: 15px;
+}
+
+.t-bottom-right-3 {
+    margin-top: 30vh;
+    flex: 1;
+    padding: 15px;
+}
+
+.t-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+
+.t-obs {
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 10%;
+    text-align: right;
+    color: green;
+}
+
+ul li:before
+{
+    content: '\2713';
+    display: inline-block;
+    color: red;
+    padding: 0 6px 0 0;
+}
+
+ul li
+{
+    list-style-type: none;
+    font-size: 1em;
+}
+
+@media screen and (max-width:480px) {
+
+    .t {
+    
+    height: 320vh;
+}
+  .t-tour-bottom {
+    flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+}
+
+  .t-bottom-left {
+    width: 100%;
+  }
+
+  .t-card {
+    height: 30vh;
+  }
+
+  .t-card.bg, .t-card.bg-2, .t-card.bg-3 {
+    display: none;
+  }
+
+  .t-bottom-right{
+        width: 100%;
+        padding: 0;
+        padding-top: 40vh;
+}
+
+  .t-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: green;
+}
+
+.t-card-title {
+    top: 22vh;
+    width: 80%;
+    height: 10vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.t-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.t-card-title-2 {
+    top: 117vh;
+    width: 80%;
+    height: 10vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.t-card-2 {
+    top: 135vh;
+    height: 30vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.t-bottom-right-2{
+    width: 100%;
+    padding: 0;
+    padding-top: 38vh;
+}
+
+.t-card-title-3 {
+    top: 218vh;
+    width: 80%;
+    height: 10vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.t-card-3 {
+    top: 235vh;
+    height: 30vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.t-bottom-right-3{
+    width: 100%;
+    padding: 0;
+    padding-top: 38vh;
+  }
+
+ul li:before
+{
+    content: '\2713';
+    display: inline-block;
+    color: red;
+    padding: 0 3px 0 0;
+}
+ul li
+{
+    list-style-type: none;
+    font-size: 0.8em;
+}
+}
