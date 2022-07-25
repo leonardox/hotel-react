@@ -5,6 +5,11 @@
     position: relative;
 }
 
+.t-desc {
+    font-size: 25px;
+    color: crimson;
+}
+
 .t-top {
     align-items: center;
     justify-content: center;
@@ -122,23 +127,32 @@
     margin-top: 10vh;
     flex: 1;
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .t-bottom-right-2 {
-    margin-top: 20vh;
-    flex: 1;
-    padding: 15px;
-}
-
-.t-bottom-right-3 {
     margin-top: 30vh;
     flex: 1;
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t-bottom-right-3 {
+    margin-top: 50vh;
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .t-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color: green;
 }
 

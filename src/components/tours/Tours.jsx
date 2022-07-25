@@ -36,26 +36,17 @@ const Tours = () => {
             <div className="t-bottom-right">
                 
                 <h1 className="t-title">O que inclui:</h1>
+                <br/>
                 <ul>
-                    <li>Transporte (hotel - Passeio - Hotel)</li>
-                    <li>Taxa de visita</li>
+                    <li>Encontro das águas</li>
+                    <li>Parque ecológico do Janauari</li>
                     <li>Almoço regional</li>
-                    <li>Água mineral durante o percurso no barco</li>
-                    <li>Guia bilingue</li>
+                    <li>Interação com os botos</li>
+                    <li>Visita a tribo indígena</li>
+                    <li>Transfer</li>
                 </ul>
             <br/>
-            <h1 className="t-title">Saída:</h1>
-            <ul>
-                <li>Do hotel a partir das 08H20</li>
-                <li>Terça-feira, Quarta-feira, Quinta-feira, Sábado e Domingo</li>
-            </ul>
-            <br/>
-            <h1 className="t-title">Retorno:</h1>
-            <ul>
-                <li>Chegada prevista para às 16H30</li>
-            </ul>
-            <br/>
-                <h1 className="t-obs">*Valores a consultar</h1>
+                <h1 className="t-obs">*Disponibilidade, horários e Valores a consultar</h1>
             </div>
         </div>
 
@@ -71,27 +62,14 @@ const Tours = () => {
             </div>
             <div className="t-bottom-right-2">
                 
-                <h1 className="t-title">O que inclui:</h1>
-                <ul>
-                    <li>Transporte (hotel - Passeio - Hotel)</li>
-                    <li>Taxa de visita</li>
-                    <li>Almoço regional</li>
-                    <li>Água mineral durante o percurso no barco</li>
-                    <li>Guia bilingue</li>
-                </ul>
+                <div className="t-desc">
+                    <p>
+                        Venha fazer nossa pescaria esportiva de 01 a 10 dias nos principais lagos de pesca do amazonas e se divertir conhecendo um pouco da amazônia.
+                    </p>  
+                </div>
             <br/>
-            <h1 className="t-title">Saída:</h1>
-            <ul>
-                <li>Do hotel a partir das 07H20</li>
-                <li>Terça-feira, Quarta-feira, Quinta-feira, Sábado e Domingo</li>
-            </ul>
             <br/>
-            <h1 className="t-title">Retorno:</h1>
-            <ul>
-                <li>Ás 16H o grupo retorna a Manaus, chegada prevista para às 18H30</li>
-            </ul>
-            <br/>
-                <h1 className="t-obs">*Valores a consultar</h1>
+                <h1 className="t-obs">*Disponibilidade, horários e valores a consultar</h1>
             </div>
         </div>
 
@@ -107,27 +85,14 @@ const Tours = () => {
             </div>
             <div className="t-bottom-right-3">
                 
-                <h1 className="t-title">O que inclui:</h1>
-                <ul>
-                    <li>Transporte (hotel - Passeio - Hotel)</li>
-                    <li>Taxa de visita</li>
-                    <li>Almoço regional</li>
-                    <li>Água mineral durante o percurso no barco</li>
-                    <li>Guia bilingue</li>
-                </ul>
+                <div className="t-desc">
+                    <p>
+                        Venha conhecer de 02 a 07 dias em um maravilhoso hotel de selva que se localiza no Lago do Juma e fazer várias atividades.
+                    </p>  
+                </div>
             <br/>
-            <h1 className="t-title">Saída:</h1>
-            <ul>
-                <li>Do hotel a partir das 07H20</li>
-                <li>Terça-feira, Quarta-feira, Quinta-feira, Sábado e Domingo</li>
-            </ul>
             <br/>
-            <h1 className="t-title">Retorno:</h1>
-            <ul>
-                <li>Ás 16H o grupo retorna a Manaus, chegada prevista para às 18H30</li>
-            </ul>
-            <br/>
-                <h1 className="t-obs">*Valores a consultar</h1>
+                <h1 className="t-obs">*Disponibilidade, horários e valores a consultar</h1>
             </div>
         </div>
     </div>

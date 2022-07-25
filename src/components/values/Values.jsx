@@ -4,7 +4,7 @@ import Quartos from "../../img/quartos.jpeg"
 import { useSelector } from "react-redux";
 import axios from "axios";
 
-const api = "http://localhost:5000/valores";
+const api = "https://hotel-colors.herokuapp.com/valores";
 
 
 
@@ -17,7 +17,8 @@ const Values = () => {
 
   const loadValues = async () => {
     const response = await axios.get(api);
-    setData(response.data);
+    setData({ ...data, "individual": response.data.individual, "duplo": response.data.duplo, "triplo": response.data.triplo });
+    //setData(response.data);
     console.log(response.data);
   }
   // const { individual } = useSelector(state => state.user);

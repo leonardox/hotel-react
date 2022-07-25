@@ -5,7 +5,7 @@ import { changeIndividual, changeDuplo, changeTriplo, logout } from '../../redux
 import "./Price.css"
 import axios from "axios";
 
-const api = "http://localhost:5000/valores";
+const api = "https://hotel-colors.herokuapp.com/valores";
 
 const Price = () => {
   function initialState() {

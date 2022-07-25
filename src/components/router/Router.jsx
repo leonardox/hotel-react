@@ -19,9 +19,10 @@ const Router = () => {
                     <Intro />
                     {/* <Board /> */}
                     <About />
-                    <Galery />
+                    <Galery folder={"hotel"}/>
                     <Values />
                     <Tours />
+                    <Galery folder={"tour"}/>
                     <Contact />
                 </div>
             } />

@@ -2,15 +2,21 @@ import React, { useState } from 'react'
 import "./Galery.css"
 import BtnSlider from "./BtnSlider"
 import dataSlider from "./galeryData"
+import tourSlider from "./tourData"
 
-const Galery = () => {
+
+const Galery = ({folder}) => {
   const [slideIndex, setSlideIndex] = useState(1)
 
+  let slider = dataSlider;
+  if (folder === "tour") {
+    slider = tourSlider;
+  }
   const nextSlide = () => {
-    if (slideIndex !== dataSlider.length) {
+    if (slideIndex !== slider.length) {
       setSlideIndex(slideIndex + 1)
     }
-    else if (slideIndex === dataSlider.length) {
+    else if (slideIndex === slider.length) {
       setSlideIndex(1)
     }
   }
@@ -31,12 +37,11 @@ const Galery = () => {
   return (
 
     <div className="container-slider">
-      {dataSlider.map((obj, index) => {
-        console.log(process.env.PUBLIC_URL + `/carousel/${index + 1}.png`);
+      {slider.map((obj, index) => {
         return (
 
           <div key={obj.id} className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
-            <img src={process.env.PUBLIC_URL + `/carousel/${index + 1}.png`} />
+            <img src={process.env.PUBLIC_URL + `/carousel/${folder}/${index + 1}.png`} />
           </div>
         )
       })}
@@ -44,7 +49,7 @@ const Galery = () => {
       <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
       <div className="container-dots">
-        {Array.from({ length: dataSlider.length }).map((item, index) => (
+        {Array.from({ length: slider.length }).map((item, index) => (
           <div
             onClick={() => moveDot(index + 1)}
             className={slideIndex === index + 1 ? "dot active" : "dot"}
